@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Detailing</title>
+  <Link rel="stylesheet" href="ham-menu.css" />
+  <Link rel="stylesheet" href="style-desktop.css" />
+  <Link rel="stylesheet" href="style-tablet.css" media="screen and (max-width: 768px)" />
+  <Link rel="stylesheet" href="style-phone.css" media="screen and (max-width: 500px)" />
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Staatliches&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page-wrapper">
+
+    <div class="navigation">
+      <nav id="hamnav">
+        <!-- [THE HAMBURGER] -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+
+        <!-- [MENU ITEMS] -->
+        <div id="hamitems">
+          <a href="index.html">Home</a>
+          <a href="contact.html" id="currentham">Contact</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="products.html">Products</a>
+        </div>
+      </nav>
+    </div>
+
+    <header>
+      <h1 class="headerReplacement">My Logo</h1>
+      <img src="images/VW.png" class="logo" alt="Round Logo" />
+    </header>
+
+    <div class="container">
+
+      <h1>Contact us</h1>
+
+      <div class="form-container">
+        <form action="/action_page.php">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+
+          <label for="email">email</label>
+          <input type="email" id="email" name="email" placeholder="Your email..">
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write your question.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+      <div class="footer-container">
+        <p>Logos detailing</p>
+        <p>Telefonnummer: 123 456 789</p>
+        <p>Besöksadress: dennaväg 1 54321 STADEN</p>
+      </div>
+      <div class="social-menu">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" class="icon" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" class="icon" /></a>
+          </li>
+        </ul>
+      </div>
+      <iframe class="map" src="https://maps.google.com/maps?q=mekonomen%20ronneby&t=&z=13&ie=UTF8&iwloc=&output=embed">
+      </iframe>
+    </footer>
+  </div>
+</body>
+
+</html>
